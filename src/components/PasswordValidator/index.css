@@ -1,0 +1,40 @@
+.bg-container {
+  height: 100vh;
+  background-color: #24263c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-card {
+  background-color: #383a4e;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+h1 {
+  color: white;
+  font-weight: 500;
+  font-family: Roboto;
+}
+p {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+input {
+  width: 90%;
+  padding: 7px;
+  outline: none;
+}
+
+.password-error {
+  color: red;
+  font-size: 13px;
+}
